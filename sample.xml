@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:letterboxd="https://letterboxd.com"
+    xmlns:tmdb="https://themoviedb.org">
+    <channel>
+        <title>Letterboxd - Dave Samojlenko</title>
+        <link>https://letterboxd.com/dsamojlenko/</link>
+        <description>Letterboxd - Dave Samojlenko</description>
+        <atom:link rel="self" href="https://letterboxd.com/dsamojlenko/rss/" type="application/rss+xml"/>
+
+
+        <item>
+            <title>Bound, 1996</title>
+            <link>https://letterboxd.com/dsamojlenko/film/bound/</link>
+            <guid isPermaLink="false">letterboxd-watch-719583780</guid>
+            <pubDate>Wed, 20 Nov 2024 16:32:29 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-19</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Bound</letterboxd:filmTitle>
+            <letterboxd:filmYear>1996</letterboxd:filmYear>
+            <tmdb:movieId>9303</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/7/2/8/9/47289-bound-0-600-0-900-crop.jpg?v=54e3ef63ae"/></p> <p>Watched on Tuesday November 19, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Wise Guys, 1986</title>
+            <link>https://letterboxd.com/dsamojlenko/film/wise-guys/</link>
+            <guid isPermaLink="false">letterboxd-watch-718282469</guid>
+            <pubDate>Mon, 18 Nov 2024 18:49:56 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-17</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Wise Guys</letterboxd:filmTitle>
+            <letterboxd:filmYear>1986</letterboxd:filmYear>
+            <tmdb:movieId>31659</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/3/0/9/8/3/30983-wise-guys-0-600-0-900-crop.jpg?v=f1e05127e7"/></p> <p>Watched on Sunday November 17, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Get Out, 2017 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/get-out-2017/</link>
+            <guid isPermaLink="false">letterboxd-watch-718241861</guid>
+            <pubDate>Mon, 18 Nov 2024 17:36:51 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-17</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Get Out</letterboxd:filmTitle>
+            <letterboxd:filmYear>2017</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>419430</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/3/5/3/1/1/7/353117-get-out-0-600-0-900-crop.jpg?v=136acec030"/></p> <p>Watched on Sunday November 17, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>A Quiet Place: Day One, 2024 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/a-quiet-place-day-one/</link>
+            <guid isPermaLink="false">letterboxd-watch-718122857</guid>
+            <pubDate>Mon, 18 Nov 2024 14:59:26 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-17</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>A Quiet Place: Day One</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>762441</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/6/8/2/5/3/5/682535-a-quiet-place-day-one-0-600-0-900-crop.jpg?v=3eadd927ba"/></p> <p>Watched on Sunday November 17, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Lee, 2023 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/lee-2023/</link>
+            <guid isPermaLink="false">letterboxd-watch-717252746</guid>
+            <pubDate>Sun, 17 Nov 2024 16:12:24 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-16</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Lee</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>832964</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/7/4/8/7/7/2/748772-lee-2023-0-600-0-900-crop.jpg?v=e7b2eb09ce"/></p> <p>Watched on Saturday November 16, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Slingshot, 2024 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/slingshot-2024/</link>
+            <guid isPermaLink="false">letterboxd-watch-717235130</guid>
+            <pubDate>Sun, 17 Nov 2024 15:49:57 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-16</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Slingshot</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>916728</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/8/2/2/7/0/6/822706-slingshot-0-600-0-900-crop.jpg?v=95ee1b52f8"/></p> <p>Watched on Saturday November 16, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Raising Cain, 1992 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/raising-cain/</link>
+            <guid isPermaLink="false">letterboxd-watch-716424123</guid>
+            <pubDate>Sat, 16 Nov 2024 16:29:30 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-15</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Raising Cain</letterboxd:filmTitle>
+            <letterboxd:filmYear>1992</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>13937</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/sm/upload/8t/fx/25/6w/upKnvCg33FiYlhJh6h3QGAxOJU4-0-600-0-900-crop.jpg?v=243b76074a"/></p> <p>Watched on Friday November 15, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Nope, 2022 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/nope/</link>
+            <guid isPermaLink="false">letterboxd-watch-716341772</guid>
+            <pubDate>Sat, 16 Nov 2024 14:11:50 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-15</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Nope</letterboxd:filmTitle>
+            <letterboxd:filmYear>2022</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>762504</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-600-0-900-crop.jpg?v=d6a6158cc3"/></p> <p>Watched on Friday November 15, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Léolo, 1992 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/leolo/</link>
+            <guid isPermaLink="false">letterboxd-review-716232566</guid>
+            <pubDate>Sat, 16 Nov 2024 12:56:47 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-15</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Léolo</letterboxd:filmTitle>
+            <letterboxd:filmYear>1992</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>11139</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/5/5/6/7/45567-leolo-0-600-0-900-crop.jpg?v=5e1a6f2a11"/></p> <p>"Because I dream, I am not"</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Snake Eyes, 1998 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/snake-eyes/</link>
+            <guid isPermaLink="false">letterboxd-watch-715099386</guid>
+            <pubDate>Thu, 14 Nov 2024 16:47:00 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-13</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Snake Eyes</letterboxd:filmTitle>
+            <letterboxd:filmYear>1998</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>8688</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/7/6/4/7/47647-snake-eyes-0-600-0-900-crop.jpg?v=bff5c17c0c"/></p> <p>Watched on Wednesday November 13, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Love Lies Bleeding, 2024 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/love-lies-bleeding-2024/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-713818019</guid>
+            <pubDate>Tue, 12 Nov 2024 17:45:33 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-11</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Love Lies Bleeding</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>948549</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/8/5/3/0/1/1/853011-love-lies-bleeding-0-600-0-900-crop.jpg?v=06376e593e"/></p> <p>Watched on Monday November 11, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Crimes of the Future, 2022</title>
+            <link>https://letterboxd.com/dsamojlenko/film/crimes-of-the-future-2022/</link>
+            <guid isPermaLink="false">letterboxd-watch-713041370</guid>
+            <pubDate>Mon, 11 Nov 2024 17:38:41 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Crimes of the Future</letterboxd:filmTitle>
+            <letterboxd:filmYear>2022</letterboxd:filmYear>
+            <tmdb:movieId>819876</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/7/3/6/3/1/8/736318-crimes-of-the-future-0-600-0-900-crop.jpg?v=ae8a4b1603"/></p> <p>Watched on Sunday November 10, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Cuckoo, 2024 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/cuckoo-2024/</link>
+            <guid isPermaLink="false">letterboxd-watch-713005954</guid>
+            <pubDate>Mon, 11 Nov 2024 16:46:37 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Cuckoo</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>869291</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/7/8/1/2/2/3/781223-cuckoo-0-600-0-900-crop.jpg?v=0f8477b292"/></p> <p>Watched on Sunday November 10, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>In a Violent Nature, 2024 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/in-a-violent-nature/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-712885099</guid>
+            <pubDate>Mon, 11 Nov 2024 14:12:30 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>In a Violent Nature</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>1214509</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/1/0/9/8/3/2/2/1098322-in-a-violent-nature-0-600-0-900-crop.jpg?v=96aab2dcd6"/></p> <p>Watched on Sunday November 10, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Carrie, 1976 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/carrie-1976/</link>
+            <guid isPermaLink="false">letterboxd-watch-712832133</guid>
+            <pubDate>Mon, 11 Nov 2024 13:04:00 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Carrie</letterboxd:filmTitle>
+            <letterboxd:filmYear>1976</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>7340</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/sm/upload/2c/5d/69/bc/uc3OvgmbnYaS5Y0BOjSmC1EmSz1-0-600-0-900-crop.jpg?v=52ac29973c"/></p> <p>Watched on Sunday November 10, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Naked Lunch, 1991 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/naked-lunch/</link>
+            <guid isPermaLink="false">letterboxd-watch-712106991</guid>
+            <pubDate>Sun, 10 Nov 2024 17:39:20 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-09</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Naked Lunch</letterboxd:filmTitle>
+            <letterboxd:filmYear>1991</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>2742</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/sm/upload/9s/s8/eg/uk/tMninSG4OAAhx9SNjdnMJM1R3Wn-0-600-0-900-crop.jpg?v=fa99bd4191"/></p> <p>Watched on Saturday November 9, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Terrifier 2, 2022 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/terrifier-2/</link>
+            <guid isPermaLink="false">letterboxd-watch-712035621</guid>
+            <pubDate>Sun, 10 Nov 2024 16:03:18 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-09</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Terrifier 2</letterboxd:filmTitle>
+            <letterboxd:filmYear>2022</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>663712</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/8/8/9/0/7/588907-terrifier-2-0-600-0-900-crop.jpg?v=235a7cd041"/></p> <p>Watched on Saturday November 9, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Strange Darling, 2023 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/strange-darling/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-711921009</guid>
+            <pubDate>Sun, 10 Nov 2024 13:32:31 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-09</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Strange Darling</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>1029281</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/9/2/7/8/3/2/927832-strange-darling-0-600-0-900-crop.jpg?v=4bfda06e23"/></p> <p>Watched on Saturday November 9, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Blow Out, 1981 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/blow-out/</link>
+            <guid isPermaLink="false">letterboxd-watch-711277816</guid>
+            <pubDate>Sat, 9 Nov 2024 18:20:01 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-09</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Blow Out</letterboxd:filmTitle>
+            <letterboxd:filmYear>1981</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>11644</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/5/1/0/9/45109-blow-out-0-600-0-900-crop.jpg?v=0d7535d1bb"/></p> <p>Watched on Saturday November 9, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Body Double, 1984 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/body-double/</link>
+            <guid isPermaLink="false">letterboxd-watch-710570868</guid>
+            <pubDate>Fri, 8 Nov 2024 17:59:56 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-07</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Body Double</letterboxd:filmTitle>
+            <letterboxd:filmYear>1984</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>11507</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/5/2/4/1/45241-body-double-0-600-0-900-crop.jpg?v=00eec82639"/></p> <p>Watched on Thursday November 7, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>The Interview, 2014 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/the-interview-2014/</link>
+            <guid isPermaLink="false">letterboxd-watch-709955412</guid>
+            <pubDate>Thu, 7 Nov 2024 17:55:39 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-06</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>The Interview</letterboxd:filmTitle>
+            <letterboxd:filmYear>2014</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>228967</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/1/6/1/0/0/2/161002-the-interview-0-600-0-900-crop.jpg?v=9c3c3bf8ea"/></p> <p>Watched on Wednesday November 6, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Before Sunrise, 1995 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/before-sunrise/</link>
+            <guid isPermaLink="false">letterboxd-watch-709373590</guid>
+            <pubDate>Wed, 6 Nov 2024 17:49:43 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-05</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Before Sunrise</letterboxd:filmTitle>
+            <letterboxd:filmYear>1995</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>76</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/7/4/51974-before-sunrise-0-600-0-900-crop.jpg?v=006e8fedea"/></p> <p>Watched on Tuesday November 5, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Bottle Rocket, 1996 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/bottle-rocket-1996/</link>
+            <guid isPermaLink="false">letterboxd-watch-709310950</guid>
+            <pubDate>Wed, 6 Nov 2024 15:29:05 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-05</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Bottle Rocket</letterboxd:filmTitle>
+            <letterboxd:filmYear>1996</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>13685</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/3/6/8/0/43680-bottle-rocket-0-600-0-900-crop.jpg?v=a2644ae3c2"/></p> <p>Watched on Tuesday November 5, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Strange Darling, 2023 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/strange-darling/</link>
+            <guid isPermaLink="false">letterboxd-watch-708759852</guid>
+            <pubDate>Tue, 5 Nov 2024 17:58:29 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-04</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Strange Darling</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>1029281</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/9/2/7/8/3/2/927832-strange-darling-0-600-0-900-crop.jpg?v=4bfda06e23"/></p> <p>Watched on Monday November 4, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>The Craft, 1996 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/the-craft/</link>
+            <guid isPermaLink="false">letterboxd-watch-708025386</guid>
+            <pubDate>Mon, 4 Nov 2024 17:30:51 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-03</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>The Craft</letterboxd:filmTitle>
+            <letterboxd:filmYear>1996</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>9100</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/7/3/4/5/47345-the-craft-0-600-0-900-crop.jpg?v=d340df121c"/></p> <p>Watched on Sunday November 3, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>The Crying Game, 1992 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/the-crying-game/</link>
+            <guid isPermaLink="false">letterboxd-watch-707960829</guid>
+            <pubDate>Mon, 4 Nov 2024 16:01:11 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-03</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>The Crying Game</letterboxd:filmTitle>
+            <letterboxd:filmYear>1992</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>11386</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/sm/upload/xl/px/qa/r4/9Qqk3svM0I9QuabOPDNrJZdv3XJ-0-600-0-900-crop.jpg?v=f39c0c91af"/></p> <p>Watched on Sunday November 3, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>20 Days in Mariupol, 2023 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/20-days-in-mariupol/</link>
+            <guid isPermaLink="false">letterboxd-review-707124019</guid>
+            <pubDate>Mon, 4 Nov 2024 14:04:34 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-03</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>20 Days in Mariupol</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>1058616</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/9/5/4/4/8/3/954483-20-days-in-mariupol-0-600-0-900-crop.jpg?v=8e5e1a2eb8"/></p> <p>F*ck Putin</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Network, 1976 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/network/</link>
+            <guid isPermaLink="false">letterboxd-watch-707064998</guid>
+            <pubDate>Sun, 3 Nov 2024 17:06:36 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-02</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Network</letterboxd:filmTitle>
+            <letterboxd:filmYear>1976</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>10774</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/sm/upload/lr/v7/b3/mr/2W1xPQldNjJmFgqLllpUi6XRRCs-0-600-0-900-crop.jpg?v=1aff06d731"/></p> <p>Watched on Saturday November 2, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Manchester by the Sea, 2016 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/manchester-by-the-sea/</link>
+            <guid isPermaLink="false">letterboxd-watch-706945409</guid>
+            <pubDate>Sun, 3 Nov 2024 14:41:51 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-02</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Manchester by the Sea</letterboxd:filmTitle>
+            <letterboxd:filmYear>2016</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>334541</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/sm/upload/i7/li/tp/62/i0t7F6b4R1wURRESAiw9VJNuVoV-0-600-0-900-crop.jpg?v=65942464ea"/></p> <p>Watched on Saturday November 2, 2024.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Gladiator, 2000 - ★★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/gladiator-2000/</link>
+            <guid isPermaLink="false">letterboxd-review-706838796</guid>
+            <pubDate>Sun, 3 Nov 2024 13:18:56 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-02</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Gladiator</letterboxd:filmTitle>
+            <letterboxd:filmYear>2000</letterboxd:filmYear>
+            <letterboxd:memberRating>4.5</letterboxd:memberRating>
+            <tmdb:movieId>98</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/1/9/5/2/51952-gladiator-2000-0-600-0-900-crop.jpg?v=0071a74571"/></p> <p>I was entertained</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>National Lampoon&#039;s Christmas Vacation, 1989</title>
+            <link>https://letterboxd.com/dsamojlenko/film/national-lampoons-christmas-vacation/2/</link>
+            <guid isPermaLink="false">letterboxd-watch-706667023</guid>
+            <pubDate>Sun, 3 Nov 2024 09:53:36 +1300</pubDate>
+            <letterboxd:watchedDate>2023-12-17</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>National Lampoon&#039;s Christmas Vacation</letterboxd:filmTitle>
+            <letterboxd:filmYear>1989</letterboxd:filmYear>
+            <tmdb:movieId>5825</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/8/6/3/8/48638-national-lampoon-s-christmas-vacation-0-600-0-900-crop.jpg?v=e91c94d094"/></p> <p>Watched on Sunday December 17, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>National Lampoon&#039;s Christmas Vacation, 1989</title>
+            <link>https://letterboxd.com/dsamojlenko/film/national-lampoons-christmas-vacation/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-706666701</guid>
+            <pubDate>Sun, 3 Nov 2024 09:53:14 +1300</pubDate>
+            <letterboxd:watchedDate>2022-12-24</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>National Lampoon&#039;s Christmas Vacation</letterboxd:filmTitle>
+            <letterboxd:filmYear>1989</letterboxd:filmYear>
+            <tmdb:movieId>5825</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/8/6/3/8/48638-national-lampoon-s-christmas-vacation-0-600-0-900-crop.jpg?v=e91c94d094"/></p> <p>Watched on Saturday December 24, 2022.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>National Lampoon&#039;s Christmas Vacation, 1989 - ★★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/national-lampoons-christmas-vacation/</link>
+            <guid isPermaLink="false">letterboxd-watch-706666345</guid>
+            <pubDate>Sun, 3 Nov 2024 09:52:47 +1300</pubDate>
+            <letterboxd:watchedDate>2021-12-24</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>National Lampoon&#039;s Christmas Vacation</letterboxd:filmTitle>
+            <letterboxd:filmYear>1989</letterboxd:filmYear>
+            <letterboxd:memberRating>4.5</letterboxd:memberRating>
+            <tmdb:movieId>5825</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/8/6/3/8/48638-national-lampoon-s-christmas-vacation-0-600-0-900-crop.jpg?v=e91c94d094"/></p> <p>Watched on Friday December 24, 2021.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Better Off Dead..., 1985</title>
+            <link>https://letterboxd.com/dsamojlenko/film/better-off-dead/2/</link>
+            <guid isPermaLink="false">letterboxd-watch-706662628</guid>
+            <pubDate>Sun, 3 Nov 2024 09:49:15 +1300</pubDate>
+            <letterboxd:watchedDate>2023-12-17</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Better Off Dead...</letterboxd:filmTitle>
+            <letterboxd:filmYear>1985</letterboxd:filmYear>
+            <tmdb:movieId>13667</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/3/6/9/7/43697-better-off-dead--0-600-0-900-crop.jpg?v=149c76c6c6"/></p> <p>Watched on Sunday December 17, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Better Off Dead..., 1985</title>
+            <link>https://letterboxd.com/dsamojlenko/film/better-off-dead/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-706662151</guid>
+            <pubDate>Sun, 3 Nov 2024 09:48:45 +1300</pubDate>
+            <letterboxd:watchedDate>2022-12-24</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Better Off Dead...</letterboxd:filmTitle>
+            <letterboxd:filmYear>1985</letterboxd:filmYear>
+            <tmdb:movieId>13667</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/3/6/9/7/43697-better-off-dead--0-600-0-900-crop.jpg?v=149c76c6c6"/></p> <p>Watched on Saturday December 24, 2022.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Better Off Dead..., 1985 - ★★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/better-off-dead/</link>
+            <guid isPermaLink="false">letterboxd-watch-706661749</guid>
+            <pubDate>Sun, 3 Nov 2024 09:48:20 +1300</pubDate>
+            <letterboxd:watchedDate>2021-12-24</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Better Off Dead...</letterboxd:filmTitle>
+            <letterboxd:filmYear>1985</letterboxd:filmYear>
+            <letterboxd:memberRating>4.5</letterboxd:memberRating>
+            <tmdb:movieId>13667</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/3/6/9/7/43697-better-off-dead--0-600-0-900-crop.jpg?v=149c76c6c6"/></p> <p>Watched on Friday December 24, 2021.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>The Substance, 2024 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/the-substance/</link>
+            <guid isPermaLink="false">letterboxd-review-706167769</guid>
+            <pubDate>Sun, 3 Nov 2024 08:43:02 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-01</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>The Substance</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>933260</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/8/3/8/1/4/0/838140-the-substance-0-600-0-900-crop.jpg?v=ab9e1072f8"/></p> <p>whoa</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>These Girls, 2005</title>
+            <link>https://letterboxd.com/dsamojlenko/film/these-girls/</link>
+            <guid isPermaLink="false">letterboxd-watch-706099435</guid>
+            <pubDate>Sat, 2 Nov 2024 15:52:37 +1300</pubDate>
+            <letterboxd:watchedDate>2005-09-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>These Girls</letterboxd:filmTitle>
+            <letterboxd:filmYear>2005</letterboxd:filmYear>
+            <tmdb:movieId>19676</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/3/9/4/7/7/39477-these-girls-0-600-0-900-crop.jpg?v=1dee6bc5db"/></p> <p>Watched on Saturday September 10, 2005.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Passenger Side, 2009</title>
+            <link>https://letterboxd.com/dsamojlenko/film/passenger-side/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-706096781</guid>
+            <pubDate>Sat, 2 Nov 2024 15:48:51 +1300</pubDate>
+            <letterboxd:watchedDate>2009-09-11</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>Passenger Side</letterboxd:filmTitle>
+            <letterboxd:filmYear>2009</letterboxd:filmYear>
+            <tmdb:movieId>46737</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/1/8/6/2/8/18628-passenger-side-0-600-0-900-crop.jpg?v=3bb09c87ea"/></p> <p>Watched on Friday September 11, 2009.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>AKA Tommy Chong, 2006</title>
+            <link>https://letterboxd.com/dsamojlenko/film/aka-tommy-chong/</link>
+            <guid isPermaLink="false">letterboxd-watch-706095488</guid>
+            <pubDate>Sat, 2 Nov 2024 15:47:07 +1300</pubDate>
+            <letterboxd:watchedDate>2005-09-09</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>AKA Tommy Chong</letterboxd:filmTitle>
+            <letterboxd:filmYear>2006</letterboxd:filmYear>
+            <tmdb:movieId>16042</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/1/8/8/3/41883-aka-tommy-chong-0-600-0-900-crop.jpg?v=c1798acd71"/></p> <p>Watched on Friday September 9, 2005.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Familia, 2005</title>
+            <link>https://letterboxd.com/dsamojlenko/film/familia/</link>
+            <guid isPermaLink="false">letterboxd-watch-706090345</guid>
+            <pubDate>Sat, 2 Nov 2024 15:40:03 +1300</pubDate>
+            <letterboxd:watchedDate>2005-09-11</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Familia</letterboxd:filmTitle>
+            <letterboxd:filmYear>2005</letterboxd:filmYear>
+            <tmdb:movieId>42052</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/2/3/0/1/1/23011-familia-0-600-0-900-crop.jpg?v=12fbf68bed"/></p> <p>Watched on Sunday September 11, 2005.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Evil Aliens, 2005</title>
+            <link>https://letterboxd.com/dsamojlenko/film/evil-aliens/</link>
+            <guid isPermaLink="false">letterboxd-watch-706089612</guid>
+            <pubDate>Sat, 2 Nov 2024 15:39:04 +1300</pubDate>
+            <letterboxd:watchedDate>2005-09-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Evil Aliens</letterboxd:filmTitle>
+            <letterboxd:filmYear>2005</letterboxd:filmYear>
+            <tmdb:movieId>10177</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/4/6/4/7/2/46472-evil-aliens-0-600-0-900-crop.jpg?v=0a7bd5c135"/></p> <p>Watched on Saturday September 10, 2005.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Venom: The Last Dance, 2024 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/venom-the-last-dance/</link>
+            <guid isPermaLink="false">letterboxd-review-706033944</guid>
+            <pubDate>Sat, 2 Nov 2024 14:21:47 +1300</pubDate>
+            <letterboxd:watchedDate>2024-11-01</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Venom: The Last Dance</letterboxd:filmTitle>
+            <letterboxd:filmYear>2024</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>912649</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/8/1/9/3/2/0/819320-venom-the-last-dance-0-600-0-900-crop.jpg?v=6a049e8f65"/></p> <p>That’s how I play Wheel of Fortune when I’m in Vegas too</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Ant-Man and the Wasp: Quantumania, 2023 - ★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/ant-man-and-the-wasp-quantumania/</link>
+            <guid isPermaLink="false">letterboxd-watch-705791858</guid>
+            <pubDate>Sat, 2 Nov 2024 09:33:43 +1300</pubDate>
+            <letterboxd:watchedDate>2023-02-24</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Ant-Man and the Wasp: Quantumania</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>2.5</letterboxd:memberRating>
+            <tmdb:movieId>640146</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/6/6/2/3/7/566237-ant-man-and-the-wasp-quantumania-0-600-0-900-crop.jpg?v=27ced3fac4"/></p> <p>Watched on Friday February 24, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>65, 2023 - ★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/65/</link>
+            <guid isPermaLink="false">letterboxd-watch-705791379</guid>
+            <pubDate>Sat, 2 Nov 2024 09:33:04 +1300</pubDate>
+            <letterboxd:watchedDate>2023-03-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>65</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>3.0</letterboxd:memberRating>
+            <tmdb:movieId>700391</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/6/2/4/0/7/0/624070-65-0-600-0-900-crop.jpg?v=2cbb8f3d76"/></p> <p>Watched on Friday March 10, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>John Wick: Chapter 4, 2023 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/john-wick-chapter-4/1/</link>
+            <guid isPermaLink="false">letterboxd-watch-705790554</guid>
+            <pubDate>Sat, 2 Nov 2024 09:31:58 +1300</pubDate>
+            <letterboxd:watchedDate>2023-04-28</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>John Wick: Chapter 4</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>603692</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/3/0/8/8/2/530882-john-wick-chapter-4-0-600-0-900-crop.jpg?v=bc32219057"/></p> <p>Watched on Friday April 28, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Stop Making Sense, 1984 - ★★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/stop-making-sense/</link>
+            <guid isPermaLink="false">letterboxd-watch-705789951</guid>
+            <pubDate>Sat, 2 Nov 2024 09:31:15 +1300</pubDate>
+            <letterboxd:watchedDate>2023-09-22</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>Stop Making Sense</letterboxd:filmTitle>
+            <letterboxd:filmYear>1984</letterboxd:filmYear>
+            <letterboxd:memberRating>5.0</letterboxd:memberRating>
+            <tmdb:movieId>24128</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/3/7/0/0/4/37004-stop-making-sense-0-600-0-900-crop.jpg?v=c7e06b923e"/></p> <p>Watched on Friday September 22, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>John Wick: Chapter 4, 2023 - ★★★★</title>
+            <link>https://letterboxd.com/dsamojlenko/film/john-wick-chapter-4/</link>
+            <guid isPermaLink="false">letterboxd-watch-705789684</guid>
+            <pubDate>Sat, 2 Nov 2024 09:30:51 +1300</pubDate>
+            <letterboxd:watchedDate>2023-05-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>Yes</letterboxd:rewatch>
+            <letterboxd:filmTitle>John Wick: Chapter 4</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>4.0</letterboxd:memberRating>
+            <tmdb:movieId>603692</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/3/0/8/8/2/530882-john-wick-chapter-4-0-600-0-900-crop.jpg?v=bc32219057"/></p> <p>Watched on Wednesday May 10, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>The Creator, 2023 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/the-creator-2023/</link>
+            <guid isPermaLink="false">letterboxd-watch-705789366</guid>
+            <pubDate>Sat, 2 Nov 2024 09:30:25 +1300</pubDate>
+            <letterboxd:watchedDate>2023-10-25</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>The Creator</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>670292</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/9/5/0/2/9/595029-the-creator-0-600-0-900-crop.jpg?v=b921bf1d45"/></p> <p>Watched on Wednesday October 25, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>The Marvels, 2023 - ★★★½</title>
+            <link>https://letterboxd.com/dsamojlenko/film/the-marvels/</link>
+            <guid isPermaLink="false">letterboxd-watch-705789029</guid>
+            <pubDate>Sat, 2 Nov 2024 09:29:56 +1300</pubDate>
+            <letterboxd:watchedDate>2023-11-10</letterboxd:watchedDate>
+            <letterboxd:rewatch>No</letterboxd:rewatch>
+            <letterboxd:filmTitle>The Marvels</letterboxd:filmTitle>
+            <letterboxd:filmYear>2023</letterboxd:filmYear>
+            <letterboxd:memberRating>3.5</letterboxd:memberRating>
+            <tmdb:movieId>609681</tmdb:movieId>
+            <description><![CDATA[ <p><img src="https://a.ltrbxd.com/resized/film-poster/5/3/6/9/7/0/536970-the-marvels-0-600-0-900-crop.jpg?v=d084ca416c"/></p> <p>Watched on Friday November 10, 2023.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+
+
+
+        <item>
+            <title>De Palma Deep Dive</title>
+            <link>https://letterboxd.com/dsamojlenko/list/de-palma-deep-dive/</link>
+            <guid isPermaLink="false">letterboxd-list-53795896</guid>
+            <pubDate>Fri, 15 Nov 2024 03:44:00 +1300</pubDate>
+            <description><![CDATA[ <p>I'm (re)watching a bunch of Brian De Palma films. Not a ranking, just keeping track of the watch order. I'm watching other stuff too, so this will take a while.</p> <ul> <li> <a href="https://letterboxd.com/film/body-double/">Body Double</a> </li> <li> <a href="https://letterboxd.com/film/blow-out/">Blow Out</a> </li> <li> <a href="https://letterboxd.com/film/carrie-1976/">Carrie</a> </li> <li> <a href="https://letterboxd.com/film/snake-eyes/">Snake Eyes</a> </li> <li> <a href="https://letterboxd.com/film/raising-cain/">Raising Cain</a> </li> <li> <a href="https://letterboxd.com/film/wise-guys/">Wise Guys</a> </li> </ul> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>My Favourite Films 2024</title>
+            <link>https://letterboxd.com/dsamojlenko/list/my-favourite-films-2024/</link>
+            <guid isPermaLink="false">letterboxd-list-53704137</guid>
+            <pubDate>Tue, 12 Nov 2024 18:15:52 +1300</pubDate>
+            <description><![CDATA[ <p>Not ranked, just my favourite movies I've seen this year.</p> <ul> <li> <a href="https://letterboxd.com/film/dune-part-two/">Dune: Part Two</a> </li> <li> <a href="https://letterboxd.com/film/love-lies-bleeding-2024/">Love Lies Bleeding</a> </li> <li> <a href="https://letterboxd.com/film/monkey-man/">Monkey Man</a> </li> <li> <a href="https://letterboxd.com/film/the-substance/">The Substance</a> </li> <li> <a href="https://letterboxd.com/film/civil-war-2024/">Civil War</a> </li> <li> <a href="https://letterboxd.com/film/alien-romulus/">Alien: Romulus</a> </li> <li> <a href="https://letterboxd.com/film/furiosa-a-mad-max-saga/">Furiosa: A Mad Max Saga</a> </li> <li> <a href="https://letterboxd.com/film/the-fall-guy-2024/">The Fall Guy</a> </li> <li> <a href="https://letterboxd.com/film/joker-folie-a-deux/">Joker: Folie à Deux</a> </li> </ul> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>Tarantino Rewatched</title>
+            <link>https://letterboxd.com/dsamojlenko/list/tarantino-rewatched/</link>
+            <guid isPermaLink="false">letterboxd-list-53265213</guid>
+            <pubDate>Sat, 2 Nov 2024 06:58:08 +1300</pubDate>
+            <description><![CDATA[ <p>This is a list of my most rewatched Tarantino films.</p><p>I only recently started using Letterboxd, so not going by stats. Just have to go by my gut/memory.</p><p>Will be interesting to watch this list over time and compare against diary rewatches.</p> <ol> <li> <a href="https://letterboxd.com/film/pulp-fiction/">Pulp Fiction</a> <p>This movie hit at exactly the right time for me- I was in college studying theatre and a film nut, and it was probably one of my earliest DVD purchases. This was on a lot.</p> </li> <li> <a href="https://letterboxd.com/film/jackie-brown/">Jackie Brown</a> <p>This is a very close second, and could even be #1. I love putting this movie on and just being in the room with it.</p> </li> <li> <a href="https://letterboxd.com/film/reservoir-dogs/">Reservoir Dogs</a> </li> <li> <a href="https://letterboxd.com/film/kill-bill-vol-1/">Kill Bill: Vol. 1</a> </li> <li> <a href="https://letterboxd.com/film/kill-bill-vol-2/">Kill Bill: Vol. 2</a> </li> <li> <a href="https://letterboxd.com/film/the-hateful-eight/">The Hateful Eight</a> </li> <li> <a href="https://letterboxd.com/film/once-upon-a-time-in-hollywood/">Once Upon a Time... in Hollywood</a> <p>This is where recency hurts in this list. This one could climb some spots in the long tail of the films on this list.</p> </li> <li> <a href="https://letterboxd.com/film/inglourious-basterds/">Inglourious Basterds</a> </li> <li> <a href="https://letterboxd.com/film/django-unchained/">Django Unchained</a> </li> <li> <a href="https://letterboxd.com/film/death-proof/">Death Proof</a> </li> </ol> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+        <item>
+            <title>My 100</title>
+            <link>https://letterboxd.com/dsamojlenko/list/my-100/</link>
+            <guid isPermaLink="false">letterboxd-list-53008501</guid>
+            <pubDate>Sat, 2 Nov 2024 04:24:34 +1300</pubDate>
+            <description><![CDATA[ <p>Just 100 films that I love. Not ranked.</p> <ul> <li> <a href="https://letterboxd.com/film/heat-1995/">Heat</a> </li> <li> <a href="https://letterboxd.com/film/the-silence-of-the-lambs/">The Silence of the Lambs</a> </li> <li> <a href="https://letterboxd.com/film/the-shining/">The Shining</a> </li> <li> <a href="https://letterboxd.com/film/the-batman/">The Batman</a> </li> <li> <a href="https://letterboxd.com/film/alien/">Alien</a> </li> <li> <a href="https://letterboxd.com/film/pulp-fiction/">Pulp Fiction</a> </li> <li> <a href="https://letterboxd.com/film/twister/">Twister</a> </li> <li> <a href="https://letterboxd.com/film/starship-troopers/">Starship Troopers</a> </li> <li> <a href="https://letterboxd.com/film/the-breakfast-club/">The Breakfast Club</a> </li> <li> <a href="https://letterboxd.com/film/jurassic-park/">Jurassic Park</a> </li> </ul> <p>...plus 90 more. <a href="https://letterboxd.com/dsamojlenko/list/my-100/">View the full list on Letterboxd</a>.</p> ]]></description>
+            <dc:creator>Dave Samojlenko</dc:creator>
+        </item>
+
+
+
+
+
+    </channel>
+</rss>
