@@ -45,30 +45,34 @@ const setPosted = async (id: number) => {
 export const nowWatching = async () => {
   const item = await retrieveNowWatching();
 
-  if (item) {
-    const filmUri = item.link.replace('dsamojlenko/', '').replace(/\/\d+\/?$/, '');
-    const filmPage = await axios.get(filmUri);
-
-    const $ = cheerio.load(filmPage.data);
-    const directorLabel = $('meta[name="twitter:label1"]').attr('content');
-    const directorData = $('meta[name="twitter:data1"]').attr('content');
-
-    console.log('Now watching:', item.title);
-    console.log(filmUri);
-    console.log(directorLabel, directorData);
-
-    login().then(async (bot) => {
-      await bot.post({
-        text: `Now watching:\n\n${item.title}\n${directorLabel}: ${directorData}\n\n#filmsky`,
-        external: filmUri,
-      })
-
-      setPosted(item.id);
-    }).catch((err) => {
-      console.error(err);
-    }).finally(() => {
-      db.close();
-      process.exit(0);
-    });
+  if (!item) {
+    console.log('No items to post');
+    db.close();
+    process.exit(0);
   }
+
+  const filmUri = item.link.replace('dsamojlenko/', '').replace(/\/\d+\/?$/, '');
+  const filmPage = await axios.get(filmUri);
+
+  const $ = cheerio.load(filmPage.data);
+  const directorLabel = $('meta[name="twitter:label1"]').attr('content');
+  const directorData = $('meta[name="twitter:data1"]').attr('content');
+
+  console.log('Now watching:', item.title);
+  console.log(filmUri);
+  console.log(directorLabel, directorData);
+
+  login().then(async (bot) => {
+    await bot.post({
+      text: `Now watching:\n\n${item.title}\n${directorLabel}: ${directorData}\n\n#filmsky`,
+      external: filmUri,
+    })
+
+    await setPosted(item.id);
+  }).catch((err) => {
+    console.error(err);
+  }).finally(() => {
+    db.close();
+    process.exit(0);
+  });
 }
