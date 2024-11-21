@@ -71,8 +71,5 @@ export const nowWatching = async () => {
     await setPosted(item.id);
   }).catch((err) => {
     console.error(err);
-  }).finally(() => {
-    db.close();
-    process.exit(0);
   });
 }
