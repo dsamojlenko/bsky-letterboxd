@@ -1,10 +1,11 @@
 import { CronJob } from 'cron';
+import { nowWatching } from './bot/nowWatching';
 
 const start = async () => {
-  console.log('Starting the hoffbot...');
+  console.log('Starting the bot...');
 
-  const letterboxdJob = new CronJob('0 10 * * *', async () => {
-    // await dailyHoff();
+  const letterboxdJob = new CronJob('*/20 * * * *', async () => {
+    nowWatching();
   });
 
   letterboxdJob.start();
