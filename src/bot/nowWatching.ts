@@ -1,11 +1,8 @@
 import axios from "axios";
 import { login } from "../bsky/auth";
 import db from "../database/db"
-import { AuthorizationCode } from 'simple-oauth2';
-import * as process from 'process';
 import * as dotenv from 'dotenv';
 import * as cheerio from 'cheerio';
-import { RichText } from "@skyware/bot";
 
 dotenv.config();
 
@@ -47,8 +44,7 @@ export const nowWatching = async () => {
 
   if (!item) {
     console.log('No items to post');
-    db.close();
-    process.exit(0);
+    return;
   }
 
   const filmUri = item.link.replace('dsamojlenko/', '').replace(/\/\d+\/?$/, '');
@@ -72,4 +68,5 @@ export const nowWatching = async () => {
   }).catch((err) => {
     console.error(err);
   });
+
 }
