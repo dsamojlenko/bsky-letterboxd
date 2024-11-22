@@ -17,7 +17,7 @@ const start = async () => {
     password: process.env.BSKY_PASSWORD!,
   });
 
-  const letterboxdJob = new CronJob('* * * * *', async () => {
+  const letterboxdJob = new CronJob('*/10 * * * *', async () => {
     nowWatching(bot);
   });
 
