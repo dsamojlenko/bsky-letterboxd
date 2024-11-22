@@ -12,11 +12,12 @@ const retrieveNowWatching = async () => {
     db.get(`
       SELECT * FROM items
       WHERE posted = 0
+      AND guid LIKE '%watch%'
       ORDER BY pubDate DESC
       LIMIT 1
     `, (err, row) => {
       if (err) {
-        reject(err);
+      reject(err);
       }
 
       resolve(row);
