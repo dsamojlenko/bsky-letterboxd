@@ -1,7 +1,7 @@
 import { Bot } from "@skyware/bot";
 import { nowWatching } from "../bot/nowWatching";
 
-const run = async () => {
+(async () => {
   const bot = new Bot({
     eventEmitterOptions: {
       pollingInterval: 100,
@@ -13,7 +13,7 @@ const run = async () => {
     password: process.env.BSKY_PASSWORD!,
   });
 
-  nowWatching(bot);
-}
+  await nowWatching(bot);
 
-run();
+  process.exit(0);
+})();
