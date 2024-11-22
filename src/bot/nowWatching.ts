@@ -2,6 +2,7 @@ import axios from "axios";
 import db from "../database/db"
 import * as dotenv from 'dotenv';
 import * as cheerio from 'cheerio';
+import * as process from 'process';
 import { Bot } from "@skyware/bot";
 import { refreshFeed } from "./refreshFeed";
 
@@ -50,18 +51,25 @@ export const nowWatching = async (bot: Bot) => {
     return;
   }
 
-  const filmUri = item.link.replace('dsamojlenko/', '').replace(/\/\d+\/?$/, '');
-  const filmPage = await axios.get(filmUri);
+  const username = process.env.LETTERBOXD_USERNAME;
 
-  const $ = cheerio.load(filmPage.data);
-  const directorLabel = $('meta[name="twitter:label1"]').attr('content');
-  const directorData = $('meta[name="twitter:data1"]').attr('content');
-
-  console.log('Now watching:', item.title);
-  console.log(filmUri);
-  console.log(directorLabel, directorData);
+  if (!username) {
+    throw new Error('LETTERBOXD_USERNAME not set in .env file');
+  }
 
   try {
+    // We just want the Movie URL not my interaction URL
+    const filmUri = item.link.replace(`${username}/`, '').replace(/\/\d+\/?$/, '');
+    const filmPage = await axios.get(filmUri);
+
+    const $ = cheerio.load(filmPage.data);
+    const directorLabel = $('meta[name="twitter:label1"]').attr('content');
+    const directorData = $('meta[name="twitter:data1"]').attr('content');
+
+    console.log('Now watching:', item.title);
+    console.log(filmUri);
+    console.log(directorLabel, directorData);
+
     await bot.post({
       text: `Now watching:\n\n${item.title}\n${directorLabel}: ${directorData}\n\n#filmsky #NowWatching`,
       external: filmUri,
@@ -71,5 +79,4 @@ export const nowWatching = async (bot: Bot) => {
   } catch (err) {
     console.error(err);
   };
-
 }
