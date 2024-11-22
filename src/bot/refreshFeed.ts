@@ -11,7 +11,6 @@ if (!feedUri) {
   throw new Error('FEED_URI not set in .env file');
 }
 
-// TODO: items are retrieved in reverse-chronological order ... does that matter?
 export const refreshFeed = async () => {
   try {
     const response = await axios.get(feedUri);
@@ -63,8 +62,6 @@ export const refreshFeed = async () => {
 
       stmt.finalize();
     });
-
-    console.log('Feed data inserted into the database');
   } catch (error) {
     console.error('Error fetching or storing feed data', error);
   }

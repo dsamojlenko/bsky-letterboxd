@@ -46,7 +46,7 @@ export const nowWatching = async (bot: Bot) => {
   const item = await retrieveNowWatching();
 
   if (!item) {
-    console.log('No items to post');
+    // No items to post
     return;
   }
 
