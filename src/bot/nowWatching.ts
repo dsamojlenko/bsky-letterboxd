@@ -3,6 +3,7 @@ import db from "../database/db"
 import * as dotenv from 'dotenv';
 import * as cheerio from 'cheerio';
 import { Bot } from "@skyware/bot";
+import { refreshFeed } from "./refreshFeed";
 
 dotenv.config();
 
@@ -40,6 +41,7 @@ const setPosted = async (id: number) => {
 };
 
 export const nowWatching = async (bot: Bot) => {
+  await refreshFeed();
   const item = await retrieveNowWatching();
 
   if (!item) {
@@ -60,7 +62,7 @@ export const nowWatching = async (bot: Bot) => {
 
   try {
     await bot.post({
-      text: `Now watching:\n\n${item.title}\n${directorLabel}: ${directorData}\n\n#filmsky`,
+      text: `Now watching:\n\n${item.title}\n${directorLabel}: ${directorData}\n\n#filmsky #NowWatching`,
       external: filmUri,
     })
 
