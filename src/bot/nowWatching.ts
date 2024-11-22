@@ -1,8 +1,8 @@
 import axios from "axios";
-import { login } from "../bsky/auth";
 import db from "../database/db"
 import * as dotenv from 'dotenv';
 import * as cheerio from 'cheerio';
+import { Bot } from "@skyware/bot";
 
 dotenv.config();
 
@@ -39,7 +39,7 @@ const setPosted = async (id: number) => {
   });
 };
 
-export const nowWatching = async () => {
+export const nowWatching = async (bot: Bot) => {
   const item = await retrieveNowWatching();
 
   if (!item) {
@@ -58,15 +58,15 @@ export const nowWatching = async () => {
   console.log(filmUri);
   console.log(directorLabel, directorData);
 
-  login().then(async (bot) => {
+  try {
     await bot.post({
       text: `Now watching:\n\n${item.title}\n${directorLabel}: ${directorData}\n\n#filmsky`,
       external: filmUri,
     })
 
     await setPosted(item.id);
-  }).catch((err) => {
+  } catch (err) {
     console.error(err);
-  });
+  };
 
 }
