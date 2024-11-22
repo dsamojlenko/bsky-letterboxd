@@ -1,21 +1,12 @@
 import { CronJob } from 'cron';
 import { nowWatching } from './bot/nowWatching';
-import { Bot } from '@skyware/bot';
 import * as process from 'process';
+import { login } from './bsky/auth';
 
 const start = async () => {
   console.log('Starting the bot...');
 
-  const bot = new Bot({
-    eventEmitterOptions: {
-      pollingInterval: 100,
-    },
-  });
-
-  await bot.login({
-    identifier: process.env.BSKY_USERNAME!,
-    password: process.env.BSKY_PASSWORD!,
-  });
+  const bot = await login();
 
   const letterboxdJob = new CronJob('*/10 * * * *', async () => {
     nowWatching(bot);
