@@ -21,9 +21,14 @@
     "typescript": "^5.6.3"
   },
   "scripts": {
-    "start": "mv logs/letterboxd.log logs/letterboxd-$(date +\"%Y-%m-%d_%H-%M-%S\").log 2>/dev/null || true && tsx src/index.ts | tee -a logs/letterboxd.log",
+    "build": "tsc",
+    "start": "mkdir -p logs && mv logs/letterboxd.log logs/letterboxd-$(date +\"%Y-%m-%d_%H-%M-%S\").log 2>/dev/null || true && tsx src/index.ts | tee -a logs/letterboxd.log",
+    "dev": "tsx watch src/index.ts",
     "db:init": "tsx src/database/init.ts",
     "bot:get-feed": "tsx src/scripts/refresh-feed.ts",
-    "bot:now-watching": "tsx src/scripts/now-watching.ts"
+    "bot:now-watching": "tsx src/scripts/now-watching.ts",
+    "format": "prettier --write 'src/**/*.ts'",
+    "lint": "tsc --noEmit",
+    "test": "echo 'No tests specified' && exit 0"
   }
 }
