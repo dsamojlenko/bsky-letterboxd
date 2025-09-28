@@ -1,6 +1,5 @@
 import { CronJob } from 'cron';
 import { nowWatching } from './bot/nowWatching';
-import * as process from 'process';
 import { login } from './bsky/auth';
 import { logger } from './utils/logger';
 

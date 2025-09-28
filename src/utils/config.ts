@@ -8,6 +8,8 @@ export class ConfigError extends Error {
   }
 }
 
+let cachedConfig: Environment | null = null;
+
 export const validateEnvironment = (): Environment => {
   const requiredVars = [
     'DATABASE_FILE',
@@ -40,5 +42,8 @@ export const validateEnvironment = (): Environment => {
 };
 
 export const getConfig = (): Environment => {
-  return validateEnvironment();
+  if (cachedConfig === null) {
+    cachedConfig = validateEnvironment();
+  }
+  return cachedConfig;
 };
