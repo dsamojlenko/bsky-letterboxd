@@ -1,12 +1,12 @@
 import { Bot } from '@skyware/bot';
-import * as process from 'process';
 import * as dotenv from 'dotenv';
+import { getConfig } from '../utils/config';
+import { logger } from '../utils/logger';
+import { AuthenticationError } from '../utils/errors';
 
 dotenv.config();
 
-if (!process.env.BSKY_USERNAME || !process.env.BSKY_PASSWORD) {
-  throw new Error('BSKY_USERNAME and BSKY_PASSWORD must be set');
-}
+const config = getConfig();
 
 export const bot = new Bot({
   eventEmitterOptions: {
@@ -14,11 +14,22 @@ export const bot = new Bot({
   },
 });
 
-export const login = async () => {
-  await bot.login({
-    identifier: process.env.BSKY_USERNAME!,
-    password: process.env.BSKY_PASSWORD!,
-  });
-
-  return bot;
+export const login = async (): Promise<Bot> => {
+  try {
+    logger.info('Attempting to log in to Bluesky', { username: config.BSKY_USERNAME });
+    
+    await bot.login({
+      identifier: config.BSKY_USERNAME,
+      password: config.BSKY_PASSWORD,
+    });
+    
+    logger.info('Successfully logged in to Bluesky');
+    return bot;
+  } catch (error) {
+    logger.error('Failed to log in to Bluesky', { 
+      error: error instanceof Error ? error.message : 'Unknown error',
+      username: config.BSKY_USERNAME 
+    });
+    throw new AuthenticationError('Failed to authenticate with Bluesky');
+  }
 };
