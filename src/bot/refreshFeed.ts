@@ -1,68 +1,81 @@
 import axios from 'axios';
 import { parseStringPromise } from 'xml2js';
 import dotenv from 'dotenv';
-import db from '../database/db';
+import { getConfig } from '../utils/config';
+import { logger } from '../utils/logger';
+import { NetworkError } from '../utils/errors';
+import { databaseService } from '../database/service';
+import { LetterboxdFeedItem, DatabaseItem } from '../types';
 
 dotenv.config();
 
-const feedUri = process.env.FEED_URI;
+const config = getConfig();
 
-if (!feedUri) {
-  throw new Error('FEED_URI not set in .env file');
-}
+const parseLetterboxdItem = (item: LetterboxdFeedItem): Omit<DatabaseItem, 'id' | 'posted'> => {
+  return {
+    title: item.title[0],
+    link: item.link[0],
+    guid: item.guid[0]._,
+    pubDate: item.pubDate[0],
+    watchedDate: item['letterboxd:watchedDate']?.[0] || null,
+    rewatch: item['letterboxd:rewatch']?.[0] || null,
+    filmTitle: item['letterboxd:filmTitle']?.[0] || null,
+    filmYear: item['letterboxd:filmYear'] ? parseInt(item['letterboxd:filmYear'][0], 10) : null,
+    movieId: item['tmdb:movieId'] ? parseInt(item['tmdb:movieId'][0], 10) : null,
+    description: item.description?.[0] || null,
+    creator: item['dc:creator']?.[0] || null,
+  };
+};
 
-export const refreshFeed = async () => {
+export const refreshFeed = async (): Promise<void> => {
   try {
-    const response = await axios.get(feedUri);
-    const feed = await parseStringPromise(response.data);
-
-    const items = feed.rss.channel[0].item;
-
-    db.serialize(() => {
-      const stmt = db.prepare(`
-        INSERT INTO items (
-          title, link, guid, pubDate, watchedDate, rewatch, filmTitle, filmYear, movieId, description, creator
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-      `);
-
-      for (const item of items) {
-        const {
-          title,
-          link,
-          guid,
-          pubDate,
-          'letterboxd:watchedDate': watchedDate,
-          'letterboxd:rewatch': rewatch,
-          'letterboxd:filmTitle': filmTitle,
-          'letterboxd:filmYear': filmYear,
-          'tmdb:movieId': movieId,
-          description,
-          'dc:creator': creator,
-        } = item;
-
-        stmt.run(
-          title[0],
-          link[0],
-          guid[0]._,
-          pubDate[0],
-          watchedDate ? watchedDate[0] : null,
-          rewatch ? rewatch[0] : null,
-          filmTitle ? filmTitle[0] : null,
-          filmYear ? parseInt(filmYear[0], 10) : null,
-          movieId ? parseInt(movieId[0], 10) : null,
-          description ? description[0] : null,
-          creator ? creator[0] : null,
-          (err: Error) => {
-            if (err && (err as any).code !== 'SQLITE_CONSTRAINT') {
-              console.error('Could not insert feed item', err);
-            }
-          }
-        );
-      };
-
-      stmt.finalize();
+    logger.info('Fetching Letterboxd feed', { feedUri: config.FEED_URI });
+    
+    const response = await axios.get(config.FEED_URI, {
+      timeout: 10000, // 10 second timeout
+      headers: {
+        'User-Agent': 'bsky-letterboxd-bot/1.0'
+      }
     });
+    
+    const feed = await parseStringPromise(response.data);
+    
+    if (!feed?.rss?.channel?.[0]?.item) {
+      logger.warn('No items found in feed');
+      return;
+    }
+
+    const items: LetterboxdFeedItem[] = feed.rss.channel[0].item;
+    logger.info('Processing feed items', { count: items.length });
+
+    let insertedCount = 0;
+    let skippedCount = 0;
+    
+    for (const item of items) {
+      try {
+        const parsedItem = parseLetterboxdItem(item);
+        await databaseService.insertFeedItem(parsedItem);
+        insertedCount++;
+      } catch (error) {
+        // Item likely already exists (constraint error), which is fine
+        skippedCount++;
+      }
+    }
+    
+    logger.info('Feed refresh completed', { 
+      totalItems: items.length,
+      inserted: insertedCount,
+      skipped: skippedCount
+    });
+    
   } catch (error) {
-    console.error('Error fetching or storing feed data', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    logger.error('Error fetching or storing feed data', { error: errorMessage });
+    
+    if (axios.isAxiosError(error)) {
+      throw new NetworkError('Failed to fetch Letterboxd feed', error);
+    }
+    
+    throw error;
   }
 };
